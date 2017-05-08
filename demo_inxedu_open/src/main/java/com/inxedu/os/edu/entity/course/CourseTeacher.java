@@ -11,9 +11,34 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class CourseTeacher implements Serializable{
+public class CourseTeacher implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private int id;
-    private Integer courseId;
-    private Integer teacherId;
+	private Integer courseId;
+	private Integer teacherId;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Integer getCourseId() {
+		return courseId;
+	}
+
+	public void setCourseId(Integer courseId) {
+		this.courseId = courseId;
+	}
+
+	public Integer getTeacherId() {
+		return teacherId;
+	}
+
+	public void setTeacherId(Integer teacherId) {
+		this.teacherId = teacherId;
+	}
+
 }

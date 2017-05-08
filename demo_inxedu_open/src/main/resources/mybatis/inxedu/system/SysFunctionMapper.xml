@@ -8,8 +8,7 @@
 	SYS_FUNCTION.FUNCTION_URL,
 	SYS_FUNCTION.FUNCTION_TYPE,
 	SYS_FUNCTION.CREATE_TIME,
-	SYS_FUNCTION.SORT,
-	SYS_FUNCTION.image_url
+	SYS_FUNCTION.SORT
 	</sql>
 	<sql id="sys_function_property">
 	#{functionId},

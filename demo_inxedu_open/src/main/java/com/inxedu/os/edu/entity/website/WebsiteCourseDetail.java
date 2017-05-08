@@ -18,4 +18,37 @@ public class WebsiteCourseDetail implements Serializable {
 	private int recommendId;// 分类id
 	private int courseId;// 课程id
 	private int orderNum;// 排序值
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getRecommendId() {
+		return recommendId;
+	}
+
+	public void setRecommendId(int recommendId) {
+		this.recommendId = recommendId;
+	}
+
+	public int getCourseId() {
+		return courseId;
+	}
+
+	public void setCourseId(int courseId) {
+		this.courseId = courseId;
+	}
+
+	public int getOrderNum() {
+		return orderNum;
+	}
+
+	public void setOrderNum(int orderNum) {
+		this.orderNum = orderNum;
+	}
+
 }

@@ -157,6 +157,7 @@ public class AppUserController extends BaseController{
 			
 			// 注册时发送系统消息
 			Map<String, Object> websitemap = websiteProfileService.getWebsiteProfileByType(WebSiteProfileType.web.toString());
+			@SuppressWarnings("unchecked")
 			Map<String, Object> web = (Map<String, Object>) websitemap.get("web");
 			String company = web.get("company").toString();
 			String conent = "欢迎来到" + company + ",希望您能够快乐的学习";
